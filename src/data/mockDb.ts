@@ -27,7 +27,7 @@ export interface DestinationData {
   };
 }
 
-// Our database is a nested object: Origin -> Destination -> DestinationData
+// Database is a nested object: Origin -> Destination -> DestinationData
 export type DatabaseSchema = Record<string, Record<string, DestinationData>>;
 
 // --- MOCK DATABASE --- //
