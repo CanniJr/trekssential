@@ -6,7 +6,6 @@ interface tripParams {
   params: { countryCode: string };
 }
 export default async function TripPage({ params }: tripParams) {
-  console.log("country code:", params.countryCode);
   // We await the data directly!
   const { countryCode } = await params; // await here is necessary since next.js 15
   const tripData = await fetchCountryData(countryCode);

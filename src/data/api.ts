@@ -18,7 +18,7 @@ export async function fetchCountryData(
     const currencyName = data.currencies?.[currencyCode]?.name || "Unknown";
     const languages = Object.values(data.languages || {}).join(", ");
 
-    // 3. Map the live data into your existing Card format!
+    // 3. Map the live data into the existing Card format!
     return {
       destinationName: data.name.common,
       cards: {
