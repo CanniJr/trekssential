@@ -19,6 +19,7 @@ export interface CardData {
 export interface DestinationData {
   destinationName: string;
   cards: {
+    basics?: CardData;
     border?: CardData;
     transit?: CardData;
     money?: CardData;

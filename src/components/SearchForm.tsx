@@ -37,6 +37,8 @@ export default function SearchForm({ onSearch }: SearchFormProps) {
         <option value="IS">🇮🇸 I am traveling to... Iceland</option>
         <option value="DK">🇩🇰 I am traveling to... Denmark</option>
         <option value="SE">🇸🇪 I am traveling to... Sweden</option>
+        <option value="NO">🇳🇴 I am traveling to... Norway</option>
+        <option value="CH">🇨🇭 I am traveling to... Switzerland</option>
       </select>
 
       {/* Submit Button */}
